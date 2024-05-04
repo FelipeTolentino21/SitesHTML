@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Document</title>
+    </head>
+    
+    <body>
+        <form action="#" method="post">
+            <fieldset><legend>Pagina de login</legend>
+                nome:<input tye="text" value="Felipe" readonly name="nome" required><br><br>
+                nome2:<input type="text" autofocus required><br><br>
+                senha:<input type="password" required><br><br>
+                email:<input type="email" required><br><br>
+                <input type="submit" value="botão" style="width: 300px; background-color: aquamarine;">
+                <input type="reset">
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Forms</legend>
+                <input type="checkbox"> Aceitar os termos <br><br>
+                <hr>
+                <p>Gênero</p>
+                <input type="radio" name="genero" value="H"> Masculino
+                <input type="radio" name="genero" value="F"> Feminino
+                <input type="radio" name="genero" value="O"> Outros
+                <hr><br>
+                <input type="reset">
+                <hr><br>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <hr><br>
+                <select name="" id="">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </select>
+                <hr><br>
+                Qual é a sua cor favorita: <input type="text" list="cores">
+                <datalist id="cores">
+                    <option value="Azul"></option>
+                    <option value="Vermelho"></option>
+                    <option value="Verde"></option>
+                </datalist>
+                <input type="color"><br>
+                <hr>
+                <input type="number" min="0" max="100" step="25"><br><br>
+                <input type="date"><br><br>
+                <input type="range" min="0" max="100" step="20"><br><br>
+                <input type="time"><br><br>
+                <input type="file"><br><br>
+                <input type="tel"><br><br>
+                <input type="url"><br><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
